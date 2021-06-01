@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A237147B-D218-4260-B94F-237C53059C6F}</ProjectGuid>
+    <RootNamespace>mk</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Allegro_AddonImage>true</Allegro_AddonImage>
+    <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
+    <Allegro_AddonAudio>true</Allegro_AddonAudio>
+    <Allegro_AddonDialog>true</Allegro_AddonDialog>
+    <Linkage-jsoncpp>Static Library With MD</Linkage-jsoncpp>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Allegro_AddonImage>true</Allegro_AddonImage>
+    <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
+    <Allegro_AddonAudio>true</Allegro_AddonAudio>
+    <Allegro_AddonDialog>true</Allegro_AddonDialog>
+    <Linkage-jsoncpp>Static Library With MD</Linkage-jsoncpp>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="player.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="kicki.png" />
+    <Image Include="sprites\all\1.png" />
+    <Image Include="sprites\all\10.png" />
+    <Image Include="sprites\all\2.png" />
+    <Image Include="sprites\all\3.png" />
+    <Image Include="sprites\all\4.png" />
+    <Image Include="sprites\all\5.png" />
+    <Image Include="sprites\all\6.png" />
+    <Image Include="sprites\all\7.png" />
+    <Image Include="sprites\all\8.png" />
+    <Image Include="sprites\all\9.png" />
+    <Image Include="sprites\all\fatality.png" />
+    <Image Include="sprites\all\fight.jpeg" />
+    <Image Include="sprites\all\finishhim.png" />
+    <Image Include="sprites\all\mk.png" />
+    <Image Include="sprites\scorpion\1.png" />
+    <Image Include="sprites\scorpion\10.png" />
+    <Image Include="sprites\scorpion\11.png" />
+    <Image Include="sprites\scorpion\12.png" />
+    <Image Include="sprites\scorpion\13.png" />
+    <Image Include="sprites\scorpion\14.png" />
+    <Image Include="sprites\scorpion\15.png" />
+    <Image Include="sprites\scorpion\16.png" />
+    <Image Include="sprites\scorpion\17.png" />
+    <Image Include="sprites\scorpion\18.png" />
+    <Image Include="sprites\scorpion\19.png" />
+    <Image Include="sprites\scorpion\2.png" />
+    <Image Include="sprites\scorpion\20.png" />
+    <Image Include="sprites\scorpion\21.png" />
+    <Image Include="sprites\scorpion\22.png" />
+    <Image Include="sprites\scorpion\23.png" />
+    <Image Include="sprites\scorpion\24.png" />
+    <Image Include="sprites\scorpion\25.png" />
+    <Image Include="sprites\scorpion\26.png" />
+    <Image Include="sprites\scorpion\27.png" />
+    <Image Include="sprites\scorpion\28.png" />
+    <Image Include="sprites\scorpion\29.png" />
+    <Image Include="sprites\scorpion\3.png" />
+    <Image Include="sprites\scorpion\30.png" />
+    <Image Include="sprites\scorpion\31.png" />
+    <Image Include="sprites\scorpion\32.png" />
+    <Image Include="sprites\scorpion\33.png" />
+    <Image Include="sprites\scorpion\34.png" />
+    <Image Include="sprites\scorpion\35.png" />
+    <Image Include="sprites\scorpion\36.png" />
+    <Image Include="sprites\scorpion\37.png" />
+    <Image Include="sprites\scorpion\38.png" />
+    <Image Include="sprites\scorpion\39.png" />
+    <Image Include="sprites\scorpion\4.png" />
+    <Image Include="sprites\scorpion\49273047_1975931419185879_1407633556548616192_n.png" />
+    <Image Include="sprites\scorpion\5.png" />
+    <Image Include="sprites\scorpion\6.png" />
+    <Image Include="sprites\scorpion\7.png" />
+    <Image Include="sprites\scorpion\8.png" />
+    <Image Include="sprites\scorpion\9.png" />
+    <Image Include="sprites\subzero\1.png" />
+    <Image Include="sprites\subzero\10.png" />
+    <Image Include="sprites\subzero\11.png" />
+    <Image Include="sprites\subzero\12.png" />
+    <Image Include="sprites\subzero\13.png" />
+    <Image Include="sprites\subzero\13a.png" />
+    <Image Include="sprites\subzero\14.png" />
+    <Image Include="sprites\subzero\15.png" />
+    <Image Include="sprites\subzero\16.png" />
+    <Image Include="sprites\subzero\17.png" />
+    <Image Include="sprites\subzero\18.png" />
+    <Image Include="sprites\subzero\19.png" />
+    <Image Include="sprites\subzero\2.png" />
+    <Image Include="sprites\subzero\20.png" />
+    <Image Include="sprites\subzero\21.png" />
+    <Image Include="sprites\subzero\22.png" />
+    <Image Include="sprites\subzero\23.png" />
+    <Image Include="sprites\subzero\24.png" />
+    <Image Include="sprites\subzero\25.png" />
+    <Image Include="sprites\subzero\26.png" />
+    <Image Include="sprites\subzero\27.png" />
+    <Image Include="sprites\subzero\28.png" />
+    <Image Include="sprites\subzero\29.png" />
+    <Image Include="sprites\subzero\3.png" />
+    <Image Include="sprites\subzero\30.png" />
+    <Image Include="sprites\subzero\31.png" />
+    <Image Include="sprites\subzero\32.png" />
+    <Image Include="sprites\subzero\33.png" />
+    <Image Include="sprites\subzero\34.png" />
+    <Image Include="sprites\subzero\35.png" />
+    <Image Include="sprites\subzero\36.png" />
+    <Image Include="sprites\subzero\37.png" />
+    <Image Include="sprites\subzero\38.png" />
+    <Image Include="sprites\subzero\39.png" />
+    <Image Include="sprites\subzero\4.png" />
+    <Image Include="sprites\subzero\40.png" />
+    <Image Include="sprites\subzero\41.png" />
+    <Image Include="sprites\subzero\42.png" />
+    <Image Include="sprites\subzero\5.png" />
+    <Image Include="sprites\subzero\6.png" />
+    <Image Include="sprites\subzero\8.png" />
+    <Image Include="sprites\subzero\9.png" />
+    <Image Include="sprites\subzero\move_fwd.png" />
+    <Image Include="The_Balcony.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="scorpion.json" />
+    <None Include="scorpion_keybindings.json" />
+    <None Include="subzero.json" />
+    <None Include="subzero_keybindings.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="player.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="mk.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\AllegroDeps.1.7.0.0\build\native\AllegroDeps.targets" Condition="Exists('..\packages\AllegroDeps.1.7.0.0\build\native\AllegroDeps.targets')" />
+    <Import Project="..\packages\Allegro.5.2.4.0\build\native\Allegro.targets" Condition="Exists('..\packages\Allegro.5.2.4.0\build\native\Allegro.targets')" />
+    <Import Project="..\packages\jsoncpp.redist.0.6.0.1\build\native\jsoncpp.redist.targets" Condition="Exists('..\packages\jsoncpp.redist.0.6.0.1\build\native\jsoncpp.redist.targets')" />
+    <Import Project="..\packages\jsoncpp.0.6.0.1\build\native\jsoncpp.targets" Condition="Exists('..\packages\jsoncpp.0.6.0.1\build\native\jsoncpp.targets')" />
+    <Import Project="..\packages\rapidjson.1.0.2\build\native\rapidjson.targets" Condition="Exists('..\packages\rapidjson.1.0.2\build\native\rapidjson.targets')" />
+    <Import Project="..\packages\rapidjson.temprelease.0.0.2.20\build\native\rapidjson.temprelease.targets" Condition="Exists('..\packages\rapidjson.temprelease.0.0.2.20\build\native\rapidjson.temprelease.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\AllegroDeps.1.7.0.0\build\native\AllegroDeps.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\AllegroDeps.1.7.0.0\build\native\AllegroDeps.targets'))" />
+    <Error Condition="!Exists('..\packages\Allegro.5.2.4.0\build\native\Allegro.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Allegro.5.2.4.0\build\native\Allegro.targets'))" />
+    <Error Condition="!Exists('..\packages\jsoncpp.redist.0.6.0.1\build\native\jsoncpp.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\jsoncpp.redist.0.6.0.1\build\native\jsoncpp.redist.targets'))" />
+    <Error Condition="!Exists('..\packages\jsoncpp.0.6.0.1\build\native\jsoncpp.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\jsoncpp.0.6.0.1\build\native\jsoncpp.targets'))" />
+    <Error Condition="!Exists('..\packages\rapidjson.1.0.2\build\native\rapidjson.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\rapidjson.1.0.2\build\native\rapidjson.targets'))" />
+    <Error Condition="!Exists('..\packages\rapidjson.temprelease.0.0.2.20\build\native\rapidjson.temprelease.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\rapidjson.temprelease.0.0.2.20\build\native\rapidjson.temprelease.targets'))" />
+  </Target>
+</Project>

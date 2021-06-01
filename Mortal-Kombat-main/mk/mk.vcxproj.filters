@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\sprites">
+      <UniqueIdentifier>{e290ec62-9bc7-4f33-be90-e5922e54d0e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\sprites\subzero">
+      <UniqueIdentifier>{702e2102-d84b-4446-8043-e7de8de6cbab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\sprites\scorpion">
+      <UniqueIdentifier>{17708441-1d4b-4905-b0d9-0cc4c625868f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\sprites\all">
+      <UniqueIdentifier>{131c852d-7a6e-47fc-ba28-d009042775b8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="The_Balcony.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\1.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\2.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\3.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\4.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\5.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\6.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\7.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\8.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\9.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\10.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\11.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\12.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\13.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\14.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\15.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\16.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\17.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\18.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\19.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\20.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\21.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\22.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\23.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\24.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\25.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\26.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\27.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\28.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\29.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\30.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\31.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\32.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\33.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\34.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\35.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\36.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\37.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\38.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\39.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\scorpion\49273047_1975931419185879_1407633556548616192_n.png">
+      <Filter>Resource Files\sprites\scorpion</Filter>
+    </Image>
+    <Image Include="sprites\subzero\1.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\2.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\3.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\4.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\5.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\6.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\8.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\9.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\10.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\11.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\12.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\13.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\13a.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\14.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\15.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\16.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\17.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\18.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\19.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\20.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\21.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\22.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\23.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\24.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\25.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\26.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\27.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\28.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\29.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\30.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\31.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\32.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\33.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\34.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\35.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\36.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\37.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\38.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\39.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\40.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\41.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\42.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="sprites\subzero\move_fwd.png">
+      <Filter>Resource Files\sprites\subzero</Filter>
+    </Image>
+    <Image Include="kicki.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\all\mk.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\all\fatality.png">
+      <Filter>Resource Files\sprites\all</Filter>
+    </Image>
+    <Image Include="sprites\all\fight.jpeg">
+      <Filter>Resource Files\sprites\all</Filter>
+    </Image>
+    <Image Include="sprites\all\finishhim.png">
+      <Filter>Resource Files\sprites\all</Filter>
+    </Image>
+    <Image Include="sprites\all\1.png">
+      <Filter>Resource Files\sprites\all</Filter>
+    </Image>
+    <Image Include="sprites\all\2.png">
+      <Filter>Resource Files\sprites\all</Filter>
+    </Image>
+    <Image Include="sprites\all\3.png">
+      <Filter>Resource Files\sprites\all</Filter>
+    </Image>
+    <Image Include="sprites\all\4.png">
+      <Filter>Resource Files\sprites\all</Filter>
+    </Image>
+    <Image Include="sprites\all\5.png">
+      <Filter>Resource Files\sprites\all</Filter>
+    </Image>
+    <Image Include="sprites\all\6.png">
+      <Filter>Resource Files\sprites\all</Filter>
+    </Image>
+    <Image Include="sprites\all\7.png">
+      <Filter>Resource Files\sprites\all</Filter>
+    </Image>
+    <Image Include="sprites\all\8.png">
+      <Filter>Resource Files\sprites\all</Filter>
+    </Image>
+    <Image Include="sprites\all\9.png">
+      <Filter>Resource Files\sprites\all</Filter>
+    </Image>
+    <Image Include="sprites\all\10.png">
+      <Filter>Resource Files\sprites\all</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="subzero.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="scorpion.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="scorpion_keybindings.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="subzero_keybindings.json">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="mk.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
